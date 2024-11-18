@@ -1,0 +1,111 @@
+body{
+	color: black;
+	background-color: #ffeda5;
+	font-family:Verdana, Arial, sans-serifns-serif;
+	font-size: 12pt;
+	margin: 10px;
+	/*background-image: url("img/Fon.png");*/
+	background-image: url("img/uzor.png");
+	background-repeat: no-repeat;
+}
+#logo{
+	min-width: 600px;
+	max-width: 1400px;
+	margin-top: 1em;
+	background: #fc6;
+	
+}
+#logo>a {
+	margin: 1em;
+	float: left;
+font-size: 300%;
+font-weight: 800;
+	
+}
+#logo p {
+	float: right;
+	background: silver;
+	margin-right: 2em;
+}
+#menu, #menuDown {
+	display: block;
+	clear: both;
+	float: none;
+	width: 80%;
+	min-width: 600px;
+	max-width: 900px;
+	
+}
+ul#menu li {
+	position: relative;
+	float: left;
+	list-style: none;
+	margin: 1px;
+	padding: 2px;
+	
+}
+main {
+	float: right;
+	width: 70%;
+	min-width: 600px;
+	max-width: 1200px;
+	margin: 1em;
+	padding: 1em;
+	background: RGBa(2%, 67%, 62%,.5);
+	border-radius:30px;
+	clear: right;
+	position: relative;
+	
+	
+}
+aside{
+	margin-top: 30px;
+	display: block;
+	float: left;
+	position: absolute;
+	width: 200px;
+	height: 400px;
+	border: 1px solid red;
+	clear: right;
+}
+article{
+	column-count: 2;
+	column-width: auto;
+}
+.subcat{
+	display: none;
+	font-size:smaller;
+	overflow-y: visible;
+	transition: 1.5s easy-in-out;
+	width: 5em;
+	height: 5em;
+}
+#catalog li:hover .subcat{
+	display: block;
+}
+footer{
+	display: block;
+	background: lightgray;
+	clear: both;
+	float: left;
+	width: 100%
+}
+footer u1{
+	float: left;
+	
+}
+footer p{
+	float: right;
+	display: block;
+	margin: 2em;
+	
+}
+main img{
+	float: left;
+	margin:0 1em .5em 0;
+	
+}
+p{
+text-indent: 2em;
+text-align: justify;
+}

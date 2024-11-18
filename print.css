@@ -1,0 +1,17 @@
+body{
+width: 100%;
+color: black;
+background-color: white;
+font-family: Verdana, "Times New Roman", serif;
+}
+header, footer, aside {
+display: none;
+}
+main img {
+float: left;
+margin: 0 1em .5em 0;
+}
+p{
+text-indent: 2em;
+text-align: justify;
+}
